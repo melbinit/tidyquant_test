@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+    background-size: cover;
+  }
+.navbar{
+    padding: 20px;
+}  
+  .nav-links {
+    display: flex;
+    font-size: 24px;
+   
+  }
+  .nav-links li {
+    list-style-type: none;
+    margin-left: 20px;
+  }
+.nav-links li a {
+    display: block;
+    padding: 15px 5px;
+    text-decoration: none;
+    color: lightblue;
+}
+
+.nav-links li a:hover {
+  color: aqua;
+}
+.main {
+  margin: auto;
+  width: min-content;
+  height: min-content;
+  padding: 10px;
+  position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+  }
+
+.content h2 {
+  color: lightblue;
+  font-size: 6em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
